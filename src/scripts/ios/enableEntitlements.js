@@ -29,7 +29,7 @@
 
     for (config in configurations) {
       buildSettings = configurations[config].buildSettings
-      buildSettings.CODE_SIGN_IDENTITY = '"' + CODESIGNIDENTITY + '"'
+      // buildSettings.CODE_SIGN_IDENTITY = '"' + CODESIGNIDENTITY + '"'
       buildSettings.CODE_SIGN_ENTITLEMENTS = '"' + entitlementsFile + '"'
 
       // if deployment target is less then the required one - increase it

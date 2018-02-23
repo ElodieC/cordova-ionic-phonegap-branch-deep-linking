@@ -20,7 +20,7 @@
         androidManifest.writePreferences(context, preferences)
       }
       if (platform === IOS) {
-        iosDevelopmentTeam.addDevelopmentTeam(preferences)
+        // iosDevelopmentTeam.addDevelopmentTeam(preferences)
       }
     })
   }
